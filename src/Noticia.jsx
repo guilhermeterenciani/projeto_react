@@ -1,8 +1,9 @@
+import React from 'react'
 import './Noticia.css'
-export function Noticia(){
+export function Noticia(props){
     return(
         <article className="noticia">
-            <h1>Título da Notícia</h1>
+            <h1>{props.titulo}</h1>
             <img src="https://api.lorem.space/image?w=500&h=500"/>
         </article>
     )

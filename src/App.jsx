@@ -8,7 +8,10 @@ function App() {
       <h1>SCT Notícias</h1>
       <Topo/>
       <main>
-        <Noticia/>
+        <Noticia titulo="Título 1"/>
+        <Noticia titulo="Título 2"/>
+        <Noticia titulo="Título 3"/>
+        <Noticia titulo="Título 4"/>
       </main>
     </div>
   )
