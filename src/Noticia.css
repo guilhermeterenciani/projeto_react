@@ -7,6 +7,7 @@
     flex-direction: column;
     gap: 5px;
     
+    
 }
 .noticia h1,.noticia p{
     padding: 5px;
@@ -33,4 +34,12 @@
 }
 .noticia .verMais:hover{
     background-color: #E87322;
+}
+
+.titulo h1{
+    background: rgb(154,151,151);
+    background: linear-gradient(36deg, rgba(154,151,151,0.8295693277310925) 0%, rgba(255,255,255,1) 100%);    
+    color: white;
+    position: static;
+    bottom: 0;
 }

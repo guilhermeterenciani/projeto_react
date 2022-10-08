@@ -44,3 +44,24 @@ Inicie o servidor
 ```bash
   npm run dev
 ```
+
+## Instalando e subindo o server
+```bash
+  git clone https://github.com/guilhermeterenciani/projeto_react_fecinavi_2022_server.git
+```
+
+Entre no diretório do projeto
+```bash
+  cd projeto_react_fecinavi_2022_server
+```
+Instale as dependências
+
+```bash
+  npm install
+```
+
+Inicie o servidor
+
+```bash
+  node .\server.js
+```
