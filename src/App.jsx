@@ -5,9 +5,11 @@ function App() {
 
   return (
     <div className="App">
-      <Topo/>
       <h1>SCT Notícias</h1>
-      <Noticia/>
+      <Topo/>
+      <main>
+        <Noticia/>
+      </main>
     </div>
   )
 }
